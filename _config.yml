@@ -1,0 +1,12 @@
+# Site settings
+title: Shaune West
+#email: your-email@domain.com
+description: "Front End Developer & UI Designer, currently based in Melbourne."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://shaunewest.com" # the base hostname & protocol for your site
+permalink: pretty
+twitter_username: shaunewest
+github_username:  theshaune
+
+# Build settings
+markdown: kramdown
