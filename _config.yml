@@ -1,12 +1,12 @@
 # Site settings
-title: Shaune West
-#email: your-email@domain.com
-description: "Front End Developer & UI Designer, currently based in Melbourne."
+title: Simon Eramo
+email: simonramo@gmail.com
+description: "Hack Front End Developer & Hack UI Designer, currently based in West Side of Melbourne."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://shaunewest.com" # the base hostname & protocol for your site
+url: "http://simoneramo" # the base hostname & protocol for your site
 permalink: pretty
-twitter_username: shaunewest
-github_username:  theshaune
+twitter_username: simoneramo
+github_username:  simoneramo
 
 # Build settings
 markdown: kramdown
