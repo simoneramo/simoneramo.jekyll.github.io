@@ -1,19 +1,15 @@
-<footer class="site-footer">
+<footer class="">
 
-  <div class="wrapper">
+    <h2 class="">{{ site.title }}</h2>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
+        <ul class="">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
-      </div>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
+
+        <ul class="">
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -29,14 +25,47 @@
             </a>
           </li>
           {% endif %}
+          {% if site.instagram_username %}
+          <li>
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+              <span class="username">{{ site.instagram_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.gimmebar_username %}
+          <li>
+            <a href="https://gimmebar.com/loves/{{ site.gimmebar_username }}">
+              <span class="username">{{ site.gimmebar_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.dribble_username %}
+          <li>
+            <a href="https://dribbble.com/{{ site.dribble_username }}">
+              <span class="username">{{ site.dribble_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <li>
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+              <span class="username">{{ site.linkedin_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+         	{% if site.codepen_username %}
+          <li>
+            <a href="https://codepen.io/{{ site.codepen_username }}">
+              <span class="username">{{ site.codepen_username }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
-      </div>
 
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
 
-  </div>
+
+        <p>{{ site.description }}</p>
+
+
 
 </footer>

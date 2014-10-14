@@ -7,6 +7,10 @@ url: "http://simoneramo" # the base hostname & protocol for your site
 permalink: pretty
 twitter_username: simoneramo
 github_username:  simoneramo
-
+instagram_username: simon_eramo
+gimmebar_username: simoneramo
+dribble_username: simoneramo
+linkedin_username: simoneramo
+codepen_username: simoneramo
 # Build settings
 markdown: kramdown
