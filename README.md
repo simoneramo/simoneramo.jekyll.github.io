@@ -1,4 +1,4 @@
 simoneramo.com
 ==============
 
-Personal website
+Jekyll play and setup.
